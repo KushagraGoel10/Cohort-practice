@@ -25,3 +25,12 @@ for (let i = 0; i <= 1000; i++) {
 }
 
 console.log(count);
+
+
+
+let count1= 0; 
+for (let i = 0 ;  i < 10000 ; i++ ){
+  count1 = count1 + i ;
+}
+
+console.log (count1);
