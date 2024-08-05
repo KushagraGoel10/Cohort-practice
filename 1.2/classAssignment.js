@@ -164,5 +164,6 @@ for(let i=0;i<=500;i++){
 function printTime(i){
   let date = new Date();
   console.clear();
-  console.log(date.getHours(),"hrs :",date.getMinutes(),"mins :",date.getSeconds()+1, "secs")
+  console.log("The Terminal Clock:", date.getHours(),"hrs :",date.getMinutes(),"mins :",date.getSeconds()+1, "secs");
+  console.log("It will get stopped after 500 seconds")
 }
