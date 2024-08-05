@@ -39,7 +39,7 @@ console.log (count1);
 
 
 // COMPLEX PRIMITIVES - ARRAYS
-// 1. Write a program prints all the even numbers in an array 
+// 5. Write a program prints all the even numbers in an array 
 
 const numbers = [21,22,23,24,25];
 
@@ -51,7 +51,7 @@ for (let i = 0; i<numbers.length ; i ++){
 }
  
 
-//2. Write a program to print the biggest number in an arrya 
+//6. Write a program to print the biggest number in an arrya 
 let max = numbers[0];
 for (let i = 1 ; i<numbers.length; i++){
   if (numbers[i] > max){
@@ -62,7 +62,7 @@ for (let i = 1 ; i<numbers.length; i++){
 }
 console.log("The biggest number in the array is:", max);
 
-//3.Write a program that prints all the male people’s first name given a complex object 
+//7.Write a program that prints all the male people’s first name given a complex object 
 
 // let personArray = ["kush", "ram", "Sejal"];
 // let genderArray = ["male", "male", "female"];
@@ -95,7 +95,7 @@ for (let i = 0 ; i < allUsers.length; i++ ){
 }     
 
 
-//4. Write a program that reverses all the elements of an array
+//8. Write a program that reverses all the elements of an array
 
 let array = [1,2,3,4,5];
 let left = 0;
@@ -113,3 +113,26 @@ let right = array.length-1;
     }
 
     console.log("Reversed array is ", array);
+
+
+
+// //9. Write a function to print sum of two numbers
+// 10. Write another function that displays this result in a pretty format
+// 11. Write another function that takes this sum and prints it in passive tense
+
+function sum(num1, num2) {
+  let result = num1 + num2;
+  return result;
+}
+
+function displayResult(data) {
+  console.log("Result of the sum is : " + data);
+}
+
+function displayResultPassive(data) {
+  console.log("Sum's result is : " + data);
+}
+
+// You are only allowed to call one function after this
+// How will you displayResult of a sum
+let value = displayResult(sum(2,3));

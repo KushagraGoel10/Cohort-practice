@@ -59,3 +59,45 @@ for (let i = 0 ; i < allUsers.length; i++ ){
     console.log(allUsers[i]["firstName"]);
   }
 }     
+
+
+
+//functions-> 
+
+
+
+// function sum (number1, number2){
+
+//   return number1 + number2 ;
+// }
+
+// const value = sum(1,2);
+// console.log (value);
+
+
+
+function sum(num1, num2) {
+  let result = num1 + num2;
+  return result;
+}
+
+function displayResult(data) {
+  console.log("Result of the sum is : " + data);
+}
+
+function displayResultPassive(data) {
+  console.log("Sum's result is : " + data);
+}
+
+// You are only allowed to call one function after this
+// How will you displayResult of a sum
+
+let value = displayResultPassive(sum(2,3));
+
+
+//setTimeout - used to call a function after a certain duration.
+
+function greet () {
+    console.log ("Hello World");
+}
+setTimeout(greet, 3000);
