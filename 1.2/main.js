@@ -101,3 +101,33 @@ function greet () {
     console.log ("Hello World");
 }
 setTimeout(greet, 3000);
+
+
+
+//call back functions
+
+
+function square (n){
+    return n*n;
+}
+function cube (n){
+  return n*n*n;
+}
+
+function sumOfSquares(a,b){
+  const value1 = square(a);
+  const value2 = square(b);
+
+
+  return value1 + value2;
+}
+
+function sumOfCubes(a,b){
+      const value3= cube(a);
+      const value4= cube(b);
+
+      return value3 + value4;
+}
+
+console.log(sumOfSquares(3,5));
+console.log(sumOfCubes(3,5));

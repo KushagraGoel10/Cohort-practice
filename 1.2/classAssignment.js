@@ -167,3 +167,5 @@ function printTime(i){
   console.log("The Terminal Clock:", date.getHours(),"hrs :",date.getMinutes(),"mins :",date.getSeconds()+1, "secs");
   console.log("It will get stopped after 500 seconds")
 }
+
+
